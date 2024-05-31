@@ -1,0 +1,164 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(blue-abstract-wallpaper-1.jpg);
+    }
+    
+    /* Navigation Bar */
+    nav {
+    background-color: #333;
+    padding: 30px;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    /* Hero Section */
+    .hero {
+    background-image: url(J.jfif);
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    }
+
+    /* About Me Section */
+    .about {
+    color: #ccc;
+    padding: 50px;
+    font-size: 30px;
+    }
+
+.skills {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.progress {
+    background: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 25px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #09c212;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.493);
+    text-align: center;
+    transition: width 0.3s ease-in-out;
+    border-radius: 25px;
+}
+
+.Interest{
+    color: #ccc;
+    font-size: 30px;
+}
+
+    footer {
+        background-color:  #333;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid #ccc;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .footer-button {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: 1px solid #333;
+        border-radius: 25px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .footer-button:hover {
+        background-color: #5900ff;
+        color: #fff;
+    }
+    
+    footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+        nav ul {
+            flex-direction: column;
+        }
+    
+        nav ul li {
+            margin: 5px 0;
+        }
+    
+        .hero {
+            padding: 50px 20px;
+        }
+    
+        .hero-content {
+            font-size: 1.5rem;
+        }
+    
+        .about {
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+    
+        .skills {
+            padding: 15px;
+        }
+    
+        .Interest {
+            padding: 15px;
+            font-size: 1.2rem;
+        }
+    
+        footer {
+            padding: 15px 0;
+        }
+    
+        .footer-button {
+            padding: 8px 16px;
+            margin: 3px;
+        }
+    }
